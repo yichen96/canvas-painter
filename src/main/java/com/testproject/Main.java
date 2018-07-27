@@ -10,7 +10,6 @@ public class Main {
             System.out.print("enter command: ");
             String cmd = scanner.nextLine();
             try {
-                //System.out.println(CommandScanner.validateParam(cmd,2)[1]);
                 CommandScanner.executeCommand(cmd, painter);
             } catch (IllegalArgumentException ie) {
                 System.out.println(String.format("command not supported, error: %s",ie.getMessage()));
