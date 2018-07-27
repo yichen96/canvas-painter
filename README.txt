@@ -1,4 +1,4 @@
-executable jar is found in target folder
+executable jar is found in dist folder
 run: java -jar canvas-painter-1.0-SNAPSHOT.jar
 
 from root folder:
