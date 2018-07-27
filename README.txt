@@ -7,7 +7,7 @@ to create jar: mvn clean package
 
 Used lombok in the project, if executed on IDE, may require lombok plugin.
 
-Exceptions are thrown when commands are malformed:
+Exceptions are thrown and caught when commands are malformed:
 - canvas not created
 - non existing commands
 - lines drawn out of canvas
